@@ -2,7 +2,7 @@
     display:grid;
     grid-template-columns:1fr 2fr 1fr 1fr;
     grid-template-rows:1fr 2fr 1fr;
-    grid-gap:1em;
+    
 }
 .grid > div {
     background: #ddd;
@@ -19,10 +19,13 @@ h1{
     font-size: 6vw;
 }
 a{
-    width: 100%;
-    height: auto;
-}
-map{
     width: auto;
     height: auto;
+}
+iframe{
+    height: auto;
+    border: 1px solid black;
+}
+.box1{
+    grid-column: 2/5;
 }
