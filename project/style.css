@@ -1,0 +1,13 @@
+.grid {
+    display:grid;
+    grid-template-columns:1fr 2fr 1fr;
+    grid-template-rows:1fr 2fr 1fr;
+    grid-gap:1em;
+}
+.grid > div {
+    background: #ddd;
+    padding:1em;
+}
+.grid > div:nth-child(odd){
+    background:#eee;
+}
